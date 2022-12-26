@@ -1,4 +1,4 @@
 node('built-in') {
-    stage('Continuous Download') {
-	echo 'Master branch pipeline'
+    stage('Continuous Download in Slave') {
+	echo 'Slave branch pipeline'
 }
